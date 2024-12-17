@@ -1,0 +1,252 @@
+{
+    "service_name": "CustomerManagementService",
+    "target_namespace": "http://www.amx.com.mx/mexico/telcel/di/sds/bes/crm/esb/customermanagementservice",
+    "schema_location": "http://iib.telcel.com:1730/mexico/telcel/di/sds/bes/crm/customermanagementservice/v5?xsd=xsd0",
+    "messages": [
+        {
+            "name": "getCustomerDetailInfoRequest",
+            "parts": [
+                {
+                    "name": "getCustomerDetailInfoRequest",
+                    "element": "tns:getCustomerDetailInfo"
+                }
+            ]
+        },
+        {
+            "name": "getCustomerDetailInfoResponse",
+            "parts": [
+                {
+                    "name": "getCustomerDetailInfoResponse",
+                    "element": "tns:getCustomerDetailInfoResponse"
+                }
+            ]
+        },
+        {
+            "name": "getSubscriberOfferingInstRequest",
+            "parts": [
+                {
+                    "name": "getSubscriberOfferingInstRequest",
+                    "element": "tns:getSubscriberOfferingInst"
+                }
+            ]
+        },
+        {
+            "name": "getSubscriberOfferingInstResponse",
+            "parts": [
+                {
+                    "name": "getSubscriberOfferingInstResponse",
+                    "element": "tns:getSubscriberOfferingInstResponse"
+                }
+            ]
+        },
+        {
+            "name": "getContractDetailRequest",
+            "parts": [
+                {
+                    "name": "getContractDetailRequest",
+                    "element": "tns:getContractDetail"
+                }
+            ]
+        },
+        {
+            "name": "getContractDetailResponse",
+            "parts": [
+                {
+                    "name": "getContractDetailResponse",
+                    "element": "tns:getContractDetailResponse"
+                }
+            ]
+        },
+        {
+            "name": "getOfferingPropRequest",
+            "parts": [
+                {
+                    "name": "getOfferingPropRequest",
+                    "element": "tns:getOfferingProp"
+                }
+            ]
+        },
+        {
+            "name": "getOfferingPropResponse",
+            "parts": [
+                {
+                    "name": "getOfferingPropResponse",
+                    "element": "tns:getOfferingPropResponse"
+                }
+            ]
+        },
+        {
+            "name": "getAccountInfoRequest",
+            "parts": [
+                {
+                    "name": "getAccountInfoRequest",
+                    "element": "tns:getAccountInfo"
+                }
+            ]
+        },
+        {
+            "name": "getAccountInfoResponse",
+            "parts": [
+                {
+                    "name": "getAccountInfoResponse",
+                    "element": "tns:getAccountInfoResponse"
+                }
+            ]
+        },
+        {
+            "name": "getSubscriberInfoRequest",
+            "parts": [
+                {
+                    "name": "getSubscriberInfoRequest",
+                    "element": "tns:getSubscriberInfo"
+                }
+            ]
+        },
+        {
+            "name": "getSubscriberInfoResponse",
+            "parts": [
+                {
+                    "name": "getSubscriberInfoResponse",
+                    "element": "tns:getSubscriberInfoResponse"
+                }
+            ]
+        },
+        {
+            "name": "getCustomerBasicInfoRequest",
+            "parts": [
+                {
+                    "name": "getCustomerBasicInfoRequest",
+                    "element": "tns:getCustomerBasicInfo"
+                }
+            ]
+        },
+        {
+            "name": "getCustomerBasicInfoResponse",
+            "parts": [
+                {
+                    "name": "getCustomerBasicInfoResponse",
+                    "element": "tns:getCustomerBasicInfoResponse"
+                }
+            ]
+        },
+        {
+            "name": "getResourceInfoRequest",
+            "parts": [
+                {
+                    "name": "getResourceInfoRequest",
+                    "element": "tns:getResourceInfo"
+                }
+            ]
+        },
+        {
+            "name": "getResourceInfoResponse",
+            "parts": [
+                {
+                    "name": "getResourceInfoResponse",
+                    "element": "tns:getResourceInfoResponse"
+                }
+            ]
+        },
+        {
+            "name": "getNetworkServiceRequest",
+            "parts": [
+                {
+                    "name": "getNetworkServiceRequest",
+                    "element": "tns:getNetworkService"
+                }
+            ]
+        },
+        {
+            "name": "getNetworkServiceResponse",
+            "parts": [
+                {
+                    "name": "getNetworkServiceResponse",
+                    "element": "tns:getNetworkServiceResponse"
+                }
+            ]
+        },
+        {
+            "name": "getGroupSubscribersRequest",
+            "parts": [
+                {
+                    "name": "getGroupSubscribersRequest",
+                    "element": "tns:getGroupSubscribers"
+                }
+            ]
+        },
+        {
+            "name": "getGroupSubscribersResponse",
+            "parts": [
+                {
+                    "name": "getGroupSubscribersResponse",
+                    "element": "tns:getGroupSubscribersResponse"
+                }
+            ]
+        },
+        {
+            "name": "generalException",
+            "parts": [
+                {
+                    "name": "generalException",
+                    "element": "tns:generalException"
+                }
+            ]
+        }
+    ],
+    "imported_elements": [
+        "version",
+        "businessCode",
+        "messageUUID",
+        "additionalProperty",
+        "requestDate",
+        "sendBy",
+        "ipClient",
+        "ipServer",
+        "user",
+        "besCbsRequestHeader",
+        "besCrmRequestHeader",
+        "version",
+        "resultCode",
+        "resultDesc",
+        "additionalProperty",
+        "msgLanguageCode",
+        "messageUUID",
+        "responseDate",
+        "sendBy",
+        "latency",
+        "code",
+        "severityLevel",
+        "description",
+        "actor",
+        "businessMeaning",
+        "code",
+        "severityLevel",
+        "description",
+        "actor",
+        "businessMeaning",
+        "properties",
+        "operationName",
+        "errors",
+        "code",
+        "value",
+        "ownershipInfo",
+        "operatorInfo",
+        "accessMode",
+        "msgLanguageCode",
+        "timeFormat",
+        "beId",
+        "regionId",
+        "operatorInfo",
+        "channelType",
+        "operatorID",
+        "channelID",
+        "BEID",
+        "BRID",
+        "operatorCode",
+        "orgId",
+        "key",
+        "value",
+        "timeType",
+        "timeZoneID"
+    ]
+}
